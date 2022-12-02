@@ -1,5 +1,8 @@
 Rails.application.routes.draw do
   resources :users, only: [] do
-    post :clock_in, on: :member
+    member do
+      post :clock_in
+      post :follow
+    end
   end
 end
