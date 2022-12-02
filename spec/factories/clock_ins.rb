@@ -1,11 +1,11 @@
 FactoryBot.define do
   factory :clock_in do
     trait :wake_up do
-      action { "wake_up" }
+      way { "wake_up" }
     end
 
     trait :sleep do
-      action { "sleep" }
+      way { "sleep" }
     end
   end
 end

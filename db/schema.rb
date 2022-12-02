@@ -12,7 +12,7 @@
 
 ActiveRecord::Schema[7.0].define(version: 2022_12_02_004144) do
   create_table "clock_ins", force: :cascade do |t|
-    t.string "action", null: false
+    t.string "way", null: false
     t.integer "user_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
